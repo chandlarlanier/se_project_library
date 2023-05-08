@@ -75,6 +75,9 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
 }
 
 .header__link {
