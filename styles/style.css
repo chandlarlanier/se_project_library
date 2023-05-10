@@ -42,7 +42,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -60,7 +60,7 @@
 }
 
 .header__description {
-  margin-top: 32px;
+  margin: 32px 0 0;
   font-size: 20px;
   line-height: 30px;
   max-width: 532px;
@@ -243,8 +243,8 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url("/images/staff_picks_background.jpg");
-  /* background size??????? */
+  background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
 }
 
 .staff__title {
@@ -267,7 +267,7 @@
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
