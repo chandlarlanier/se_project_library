@@ -12,12 +12,12 @@
   <body>
     <div class="page">
       <header class="header">
+        <img
+          src="./images/logo.png"
+          alt="Practicum Library Logo"
+          class="logo"
+        />
         <nav class="nav">
-          <img
-            src="./images/logo.png"
-            alt="Practicum Library Logo"
-            class="logo"
-          />
           <ul class="nav__links">
             <li>
               <a href="#staffpicks" class="nav__link">Staff picks</a>
@@ -36,26 +36,32 @@
             </li>
           </ul>
         </nav>
-        <h1 class="header__title">Welcome to the Practicum Library</h1>
-        <p class="header__description">
-          We're pleased to open our library doors to everyone! Come and expand
-          your development knowledge, or just use this lovely spot to work or
-          study. This is a cool place for cool students!
-        </p>
-        <img
-          src="./images/inside_the_library.png"
-          alt="Illustration 'Inside the library'"
-          class="header__image"
-        />
-        <div class="header__footer">
-          <a href="#about" class="header__link">About the library &darr;</a>
-          <p class="header__address">
-            200 Success Avenue, The Town of Practicum
-          </p>
-        </div>
       </header>
 
-      <main class="content">
+      <main class="main">
+        <section class="intro">
+          <div class="intro__main">
+            <div class="intro__text">
+              <h1 class="intro__title">Welcome to the Practicum Library</h1>
+              <p class="intro__description">
+                We're pleased to open our library doors to everyone! Come and
+                expand your development knowledge, or just use this lovely spot
+                to work or study. This is a cool place for cool students!
+              </p>
+            </div>
+            <img
+              src="./images/inside_the_library.png"
+              alt="Illustration 'Inside the library'"
+              class="intro__image"
+            />
+          </div>
+          <div class="intro__footer">
+            <a href="#about" class="intro__link">About the library &darr;</a>
+            <p class="intro__address">
+              200 Success Avenue, The Town of Practicum
+            </p>
+          </div>
+        </section>
         <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
